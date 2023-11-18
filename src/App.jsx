@@ -2,6 +2,9 @@
 
 import { useState } from 'react'
 import './App.css'
+import Create from './Create'
+import Show from './Show'
+
 
 const App = () => {
 
@@ -65,7 +68,6 @@ const App = () => {
 
       <br />
       <h2 id='card'>{data}</h2>
-      {/* <h3 style={{ fontFamily: 'gilroy', color: 'brown', fontWeight: 400, fontSize: '16px' }}>{JSON.stringify(users.username)}</h3> */}
     </div>
   )
 }
