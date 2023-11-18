@@ -1,0 +1,7 @@
+#card:start{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: coral;
+    padding: 5px 10px;
+}
